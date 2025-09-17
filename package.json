@@ -1,0 +1,12 @@
+{
+  "name": "yarn-monorepo-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": [
+      "packages/*"
+    ]
+  ,
+  "packageManager": "yarn@3.2.4",
+  "private":true
+}
